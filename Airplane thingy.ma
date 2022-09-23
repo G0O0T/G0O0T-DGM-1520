@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Airplane thingy.ma
-//Last modified: Fri, Sep 16, 2022 07:24:17 PM
+//Last modified: Fri, Sep 16, 2022 07:25:25 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "4.2.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19044)";
-fileInfo "UUID" "3A00510B-4C69-A70E-7448-27B9AB801376";
+fileInfo "UUID" "DB52E0B1-4FF6-18C4-9640-2C83BAA7604C";
 createNode transform -s -n "persp";
 	rename -uid "29A0907D-4C05-732E-999E-75B81689EF36";
 	setAttr ".v" no;
@@ -36,7 +36,7 @@ createNode camera -s -n "topShape" -p "top";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 51.808335221342404;
+	setAttr ".ow" 53.127502233987052;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
